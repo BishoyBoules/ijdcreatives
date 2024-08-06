@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "Arabic";
+  src: local("AirbnbCerealLight"),
+    url("./assets/fonts/IBMPlexArabic-Regular.ttf") format("truetype");
+}
+
+:root {
+  font-family: Arabic, Arial, sans-serif;
+  background-color: #FAFAFA;
+}
+
+/* navbar section */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
+  max-width: 100%;
+  padding-top: 52.5px;
+  padding-bottom: 28.5px;
+}
+
+.btnSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  padding-left: 100px;
+}
+
+.logoSection {
+  padding-right: 100px;
+}
+
+.languageSection {
+  font: normal normal 900 10px/51px Avenir Arabic;
+  letter-spacing: 0px;
+  color: #EF3F24;
+  font-size: 9.75px;
+}
+
+.languageSection img {
+  margin-left: 2px;
+}
+
+.userSection {
+  color: #EF3F24;
+}
+
+.userSection span {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  border: 2px solid #EF3F24;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+#addBtn {
+  padding: 7px 15px;
+  border-radius: 32px;
+  border: none;
+  background-color: #78BAC6;
+  color: #FFFFFF;
+}
+
+#addBtn img {
+  margin-left: 7px;
+}
+
+/* welcome section */
+
+.welcomeSection {
+  margin-top: 26px;
+  text-align: right;
+  padding-right: 130px;
+}
+
+.welcomeSection h1 {
+  color: #EF3F24;
+  font-size: 47.75px;
+  margin-bottom: 0;
+}
+
+.welcomeSection h3 {
+  font-size: 28.75px;
+}
+
+/* search section */
+
+.searchSection {
+  margin: 100px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 40px #00000029;
+  border-radius: 25px;
+  padding: 44px 38px 65px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.searchElement {
+  width: 340px;
+  height: 123px;
+  border: 3px solid #F0F0F0;
+  border-radius: 15px;
+  background-color: transparent;
+  color: black;
+  padding: 26px 35px;
+  margin-left: 15px;
+}
+
+.heading {
+  font-size: 9.75px;
+}
+
+.details {
+  font-size: 9.75px;
+}
+
+.dateInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dateInputs section {
+  margin-left: 10px;
+}
+
+.dateDetails {
+  font-size: 9.75px;
+}
+
+.dateDetails a {
+  margin-left: 10px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+input {
+  font-size: 19px;
+  text-align: right;
+  font-weight: bold;
+}
+
+#search {
+  position: absolute;
+  background-color: #EF3F24;
+  bottom: -35.5px;
+  left: 600px;
+  width: 71px;
+  height: 71px;
+  border-radius: 36px;
+  border: none;
+  cursor: pointer;
+}
+
+/* items section */
+
+.mainSection {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 200px;
+}
+
+.mainSection h1 {
+  text-align: right;
+}
+
+.mainSection h1 img {
+  margin-left: 17.13px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  text-align: right;
+}
+
+.item h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.item h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.item h3 span {
+  font-size: 9.75px;
+  color: #7E7E7E;
+}
+
+.item h6 {
+  font-size: 9.75px;
+  color: #7E7E7E;
+  margin: 0;
+}
+
+.itemImg {
+  width: 269px;
+  height: 204px;
+  border-radius: 20px;
+  border: none;
+}
+
+.likeImg {
+  background-color: white;
+  width: 27px;
+  height: 25px;
+  position: absolute;
+  left: 22px;
+  top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.items {
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: end;
+  align-content: center;
+}
+
+.itemDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  margin-top: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.rating {
+  background-color: #EF3F24;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 6px;
+}
